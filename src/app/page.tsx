@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import {Nav} from "@/app/Sections/Nav"
 import {Header} from "@/app/Sections/Home"
 
