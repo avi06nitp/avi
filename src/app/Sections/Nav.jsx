@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
@@ -9,33 +10,20 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex mx-10 my-5 items-center justify-between bg-white text-black p-4 shadow-lg rounded-lg">
+    <nav className="flex justify-center mx-10 my-5 items-center justify-between bg-white text-black p-4 shadow-lg rounded-lg">
       <div className="text-xl font-bold">Av!</div>
-
       <div className="hidden md:flex space-x-6">
         <nav className="flex gap-8">
-          <a
-            href="#home"
-            className="hover"
-          >
+          <a href="#home" className="hover">
             Experience
           </a>
-          <a
-            href="#projects"
-            className="hover"
-          >
+          <a href="#projects" className="hover">
             Projects{" "}
           </a>
-          <a
-            href="#about"
-            className="hover"
-          >
+          <a href="#about" className="hover">
             Skills{" "}
           </a>
-          <a
-            href="#contact"
-            className="hover"
-          >
+          <a href="#contact" className="hover">
             Education
           </a>
         </nav>
