@@ -7,7 +7,7 @@ export default function Home() {
 
     <div className="container">
       <Nav />
-      <Header/>
+      {/* <Header/> */}
     </div>
   );
 }
